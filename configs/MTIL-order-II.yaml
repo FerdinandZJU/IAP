@@ -1,0 +1,26 @@
+dataset_root: "../datasets"
+model_backbone_name: 'ViT-B/16'
+input_size: (224, 224)
+dataset: "MTIL"
+seed: 42
+use_validation: True
+
+train_one_dataset: -1
+zero_shot: False
+MTIL_order_2: True
+
+IAP:
+  prompt_depth_vision: 12
+  prompt_depth_text: 8
+  n_ctx_vision: 8
+  n_ctx_text: 8
+  batchwise_prompt: True
+  optim:
+    batch_size: 128
+    name: "SGD"
+    lr: 5.0
+    max_epoch: 1
+    weight_decay: 0
+    lr_scheduler: "cosine"
+    warmup_epoch: 0
+
