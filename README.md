@@ -29,4 +29,4 @@ python main.py --config-path configs/MTIL.yaml --boundaries 0.8,0.2
 ``` 
 
 ## Acknowledgements
-This code is initially based on [ZSCL](https://github.com/Thunderbeee/ZSCL), and some implementations are borrowed from [ZSCL](https://github.com/Thunderbeee/ZSCL). We thank their authors for releasing their code.
+This code is initially based on [DIKI](https://github.com/lloongx/DIKI), and some implementations are borrowed from [ZSCL](https://github.com/Thunderbeee/ZSCL). We thank their authors for releasing their code.
