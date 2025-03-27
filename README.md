@@ -14,7 +14,7 @@ Please refer to [dataset.md](docs/datasets.md).
 ## Enviroments
 Clone our repository:
 ```bash
-git clone https://github.com/lloongx/DIKI.git
+git clone https://github.com/FerdinandZJU/IAP.git
 ```
 Then create an environment and install dependencies:
 ```bash
